@@ -8,6 +8,9 @@ import CreateOrder from './order/CreateOrder';
 import Order from './order/Order';
 import OrderItem from './order/OrderItem';
 import CreateUser from './user/CreateUser';
+import { menuLoader } from './menu/Menu';
+import { orderLoader } from './order/Order';
+import SearchOrder from './order/SearchOrder';
 
 
-export { Cart, CartItem, CartOverview, EmptyCart, Menu, MenuItem, CreateOrder, Order, OrderItem, CreateUser };
+export { Cart, CartItem, CartOverview, EmptyCart, Menu, MenuItem, CreateOrder, Order, OrderItem, CreateUser, menuLoader, SearchOrder, orderLoader };
